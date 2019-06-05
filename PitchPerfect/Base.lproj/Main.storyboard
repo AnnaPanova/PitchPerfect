@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgp-mn-h5X">
-                                <rect key="frame" x="134" y="491.5" width="107.5" height="21.5"/>
+                                <rect key="frame" x="134" y="511.5" width="107.5" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLv-l2-KRU">
-                                <rect key="frame" x="155.5" y="543" width="64" height="64"/>
+                                <rect key="frame" x="155.5" y="563" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="0BT-G1-nP1"/>
                                     <constraint firstAttribute="width" constant="64" id="8BZ-A3-MDI"/>
@@ -43,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jem-Oy-1Eo">
-                                <rect key="frame" x="133.5" y="375.5" width="108" height="108"/>
+                                <rect key="frame" x="133.5" y="395.5" width="108" height="108"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="108" id="T0k-fM-KmT"/>
                                     <constraint firstAttribute="width" constant="108" id="dvb-Ja-DJ8"/>
@@ -65,7 +65,7 @@
                         <constraints>
                             <constraint firstItem="QLv-l2-KRU" firstAttribute="top" secondItem="wgp-mn-h5X" secondAttribute="bottom" constant="30" id="20u-e0-CJP"/>
                             <constraint firstItem="wgp-mn-h5X" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hbw-cg-XkF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QLv-l2-KRU" secondAttribute="bottom" constant="60" id="mci-Kr-bM2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QLv-l2-KRU" secondAttribute="bottom" constant="40" id="mci-Kr-bM2"/>
                             <constraint firstItem="QLv-l2-KRU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nno-qe-4p4"/>
                             <constraint firstItem="jem-Oy-1Eo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xda-oV-fml"/>
                             <constraint firstItem="wgp-mn-h5X" firstAttribute="top" secondItem="jem-Oy-1Eo" secondAttribute="bottom" constant="8" id="xzI-9S-oIB"/>
